@@ -1,0 +1,9 @@
+[package]
+name = "over_network"
+version = "1.0.0"
+
+[addresses]
+overmind = "0x1337"
+
+[dependencies]
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "aptos-cli-v2.1.0" }
